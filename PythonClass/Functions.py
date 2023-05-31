@@ -1,7 +1,7 @@
 
 
-
-def sayHi(i,x):
+# check valid users 
+def checkValidUser(i,x):
     if(x>18):
         print("Hi " + i + "! You are above age for this class")
     else:
@@ -10,4 +10,12 @@ def sayHi(i,x):
 name = input("Enter your name: ")
 age = input("Enter your age: ")
 
-sayHi(name, int(age))
+checkValidUser(name, int(age))
+
+
+# just say hi to users
+def sayHi(name):
+    print("Hi " + name + "! You are welcome")
+    
+
+sayHi("Philip")
