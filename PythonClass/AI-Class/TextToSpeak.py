@@ -47,6 +47,6 @@ def greet():
     else:
         speak("Good night sir!")
         tellTime()
-    speak("Phil at your service. Please tell me how can I help you today?")
+    speak("Phil here. Please tell me how can I help you today?")
 
 greet()
